@@ -8,7 +8,7 @@ function Drawer({onClose, items = []}) {
                         <div className="cartItem">
                             <img className="cartSneaker" width={70} height={70} src={obj.image} alt="Sneakers" />
                             <div>
-                                <p>{obj.name}</p>
+                                <p>{obj.title}</p>
                                 <b>{obj.price} тенге</b>
                             </div>
                             <div className="delete">
